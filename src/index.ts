@@ -6,7 +6,7 @@ const app:Express = require("express")();
 const PORT = 3001;
 
 app.get('/', (req:Request, res:Response) => {
-    res.status(200).send("Hello fucking world");
+    res.status(200).send("Hello");
 })
 
 
